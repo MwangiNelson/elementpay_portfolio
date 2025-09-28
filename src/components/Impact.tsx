@@ -58,7 +58,7 @@ export default function Impact() {
             </div>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
-              The Impact We've Made
+              The Impact We&apos;ve Made
               <br />
               <span className="text-white/90">So Far</span>
             </h2>
@@ -92,7 +92,7 @@ export default function Impact() {
                         </div>
 
                         <blockquote className="text-base leading-relaxed text-white/95">
-                          "{testimonial.quote}"
+                          &ldquo;{testimonial.quote}&rdquo;
                         </blockquote>
 
                         <div className="flex items-center space-x-3 pt-2">

@@ -25,7 +25,7 @@ export default function CTA() {
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight drop-shadow-lg">
-                  Let's Bring Stablecoin
+                  Let&apos;s Bring Stablecoin
                   <br />
                   Payments to Your Users
                 </h2>

@@ -1,55 +1,59 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 const useCases = [
   {
-    id: 'agriculture',
-    category: 'Power agriculture with instant, reliable payments.',
-    title: 'Agribusiness & Farmer Services',
-    image: '/images/farmers.png',
+    id: "agriculture",
+    category: "Power agriculture with instant, reliable payments.",
+    title: "Agribusiness & Farmer Services",
+    image: "/images/farmers.png",
     benefits: [
-      'Pay farmers or buy crops instantly via USSD—no internet required.',
-      'Enable crop insurance payouts in stablecoins.', 
+      "Pay farmers or buy crops instantly via USSD—no internet required.",
+      "Enable crop insurance payouts in stablecoins.",
     ],
-    imagePosition: 'left'
+    imagePosition: "left",
   },
   {
-    id: 'payroll',
-    category: 'Fast, low-cost payments for distributed teams.',
-    title: 'Payroll & Gig Economy Payouts',
-    image: '/images/developer.png',
+    id: "payroll",
+    category: "Fast, low-cost payments for distributed teams.",
+    title: "Payroll & Gig Economy Payouts",
+    image: "/images/developer.png",
     benefits: [
-      'Pay workers in stablecoins, withdrawable to local money.',
-      'Eliminate delays and reduce payout costs.',
+      "Pay workers in stablecoins, withdrawable to local money.",
+      "Eliminate delays and reduce payout costs.",
     ],
-    imagePosition: 'right'
+    imagePosition: "right",
   },
   {
-    id: 'merchants',
-    category: 'Global payments for local businesses.',
-    title: 'Merchant Payments & E-commerce',
-    image: '/images/ecommerce.png',
+    id: "merchants",
+    category: "Global payments for local businesses.",
+    title: "Merchant Payments & E-commerce",
+    image: "/images/ecommerce.png",
     benefits: [
-      'Accept stablecoins for online and in-store sales.',
-      'Auto-convert to local currency seamlessly.',
+      "Accept stablecoins for online and in-store sales.",
+      "Auto-convert to local currency seamlessly.",
     ],
-    imagePosition: 'left'
+    imagePosition: "left",
   },
   {
-    id: 'creators',
-    category: 'Seamless payments inside digital platforms.',
-    title: 'Gaming & Digital Economies',
-    image: '/images/content_creator.png',
+    id: "creators",
+    category: "Seamless payments inside digital platforms.",
+    title: "Gaming & Digital Economies",
+    image: "/images/content_creator.png",
     benefits: [
-      'Enable in-game purchases with stablecoins.',
-      'Let players earn and cash out to local wallets.',
+      "Enable in-game purchases with stablecoins.",
+      "Let players earn and cash out to local wallets.",
     ],
-    imagePosition: 'right'
-  }
+    imagePosition: "right",
+  },
 ];
 
 const CheckIcon = () => (
   <svg className="w-5 h-5 check-icon" fill="currentColor" viewBox="0 0 20 20">
-    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+    <path
+      fillRule="evenodd"
+      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 
@@ -58,16 +62,20 @@ export default function UseCases() {
     <section className="py-16 lg:py-24">
       <div className="container">
         <div className="text-center mb-16">
-        <div className="flex flex-row items-center justify-center w-full gap-4">
+          <div className="flex flex-row items-center justify-center w-full gap-4">
             <span className="h-1 w-5 bg-[#83007C] rounded-lg"></span>
             <span className="text-lg text-[#83007C]">Use Cases</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What's Possible With Our Rails</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            What&apos;s Possible With Our Rails
+          </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Locals who only know mobile money and USSD can still transact in stablecoins. ElementPay bridges the gap, making crypto usable in African contexts.
+            Locals who only know mobile money and USSD can still transact in
+            stablecoins. ElementPay bridges the gap, making crypto usable in
+            African contexts.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {useCases.map((useCase, index) => (
             <div
@@ -91,7 +99,6 @@ export default function UseCases() {
               {/* Content */}
               <div className="p-6 space-y-4">
                 <div>
-                  
                   <h3 className="text-xl md:text-2xl font-bold mb-3">
                     {useCase.title}
                   </h3>
@@ -102,8 +109,16 @@ export default function UseCases() {
 
                 <ul className="space-y-3">
                   {useCase.benefits.map((benefit, benefitIndex) => (
-                    <li key={benefitIndex} className="flex items-start space-x-3">
-                      <Image src="/images/icons/check.svg" alt="check" width={20} height={20} />
+                    <li
+                      key={benefitIndex}
+                      className="flex items-start space-x-3"
+                    >
+                      <Image
+                        src="/images/icons/check.svg"
+                        alt="check"
+                        width={20}
+                        height={20}
+                      />
                       <span className="text-gray-700 text-sm">{benefit}</span>
                     </li>
                   ))}
