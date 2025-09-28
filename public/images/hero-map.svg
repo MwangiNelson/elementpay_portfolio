@@ -1,0 +1,6 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#E5E7EB"/>
+  <path d="M800 300 L900 400 L850 500 L750 550 L650 500 L600 400 Z" fill="#9CA3AF" opacity="0.6"/>
+  <text x="800" y="600" text-anchor="middle" fill="#6B7280" font-size="48" font-family="Arial">Africa Map Placeholder</text>
+  <text x="800" y="650" text-anchor="middle" fill="#6B7280" font-size="24" font-family="Arial">Replace with actual map image</text>
+</svg>

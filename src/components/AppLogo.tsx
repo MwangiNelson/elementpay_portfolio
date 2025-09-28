@@ -1,0 +1,23 @@
+export default function AppLogo() {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="6"
+        y="6"
+        width="20"
+        height="20"
+        rx="6"
+        ry="6"
+        fill="none"
+        stroke="#4339CA"
+        strokeWidth="7"
+      />
+    </svg>
+  );
+}

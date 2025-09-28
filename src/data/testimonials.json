@@ -1,0 +1,49 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Grace M.",
+      "title": "CEO, Arkreen",
+      "category": "Solar energy",
+      "avatar": "/images/team/team-grace.jpg",
+      "quote": "ElementPay lets us collect in stablecoins, while customers pay in USSD. It bridges the gap between what our investors need and what locals can use.",
+      "company": "Arkreen"
+    },
+    {
+      "id": 2,
+      "name": "Kimberly V.",
+      "title": "Director, TicketDaddy",
+      "category": "Event platform",
+      "avatar": "/images/team/team-kimberly.jpg",
+      "quote": "With ElementPay, we accept stablecoin payments for tickets without confusing buyers. Customers pay through familiar flows, while we settle directly in stablecoins.",
+      "company": "TicketDaddy"
+    },
+    {
+      "id": 3,
+      "name": "Samuel K.",
+      "title": "Founder, AgriTech Solutions",
+      "category": "Agriculture",
+      "avatar": "/images/team/team-samuel.jpg",
+      "quote": "Our farmers now receive payments instantly without intermediaries. ElementPay has revolutionized how we handle supply chain financing across rural Kenya.",
+      "company": "AgriTech Solutions"
+    },
+    {
+      "id": 4,
+      "name": "Amara N.",
+      "title": "CTO, EduPay Africa",
+      "category": "Education",
+      "avatar": "/images/team/team-amara.jpg",
+      "quote": "School fee payments are now seamless across borders. Parents can pay from anywhere while schools receive funds instantly in their preferred currency.",
+      "company": "EduPay Africa"
+    },
+    {
+      "id": 5,
+      "name": "Joseph T.",
+      "title": "Operations Director, LogiChain",
+      "category": "Logistics",
+      "avatar": "/images/team/team-joseph.jpg",
+      "quote": "ElementPay streamlined our cross-border logistics payments. Drivers get paid instantly, and we've reduced transaction costs by over 60%.",
+      "company": "LogiChain"
+    }
+  ]
+}
