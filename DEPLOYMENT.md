@@ -8,6 +8,8 @@ The landing page is now fully functional with placeholder assets. To run:
 npm run dev
 ```
 
+probe
+
 Visit `http://localhost:3000` to see the landing page.
 
 ## 📱 What's Been Built
